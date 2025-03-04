@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommonServiceLocator" Version="2.0.2" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DigitalPlatform.Assets\DigitalPlatform.Assets.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.ViewModels\DigitalPlatform.ViewModels.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.Views\DigitalPlatform.Views.csproj" />
+  </ItemGroup>
+
+</Project>

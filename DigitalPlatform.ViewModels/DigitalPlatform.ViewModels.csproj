@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="System.IO.Ports" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DigitalPlatform.Assets\DigitalPlatform.Assets.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.Common\DigitalPlatform.Common.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.DataAccess\DigitalPlatform.DataAccess.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.DeviceAccess\DigitalPlatform.DeviceAccess.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.IDataAccess\DigitalPlatform.IDataAccess.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.Models\DigitalPlatform.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+﻿<Application x:Class="DigitalPlatform.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:DigitalPlatform.ViewModels;assembly=DigitalPlatform.ViewModels"
+             StartupUri="pack://application:,,,/DigitalPlatform.Views;component/Mainview.xaml">
+    <Application.Resources>
+        <vm:ViewModelLocator x:Key="locator" x:Name="vm1"/>
+        <FontFamily x:Key="Iconfont">pack://application:,,,/DigitalPlatform.Assets;component/Fonts/#iconfont</FontFamily>
+        <FontFamily x:Key="DigitalDisplay">pack://application:,,,/DigitalPlatform.Assets;component/Fonts/#Digital Display</FontFamily>
+    </Application.Resources>
+</Application>

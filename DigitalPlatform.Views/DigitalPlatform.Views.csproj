@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.8" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DigitalPlatform.Assets\DigitalPlatform.Assets.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.Common\DigitalPlatform.Common.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.Components\DigitalPlatform.Components.csproj" />
+    <ProjectReference Include="..\DigitalPlatform.ViewModels\DigitalPlatform.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

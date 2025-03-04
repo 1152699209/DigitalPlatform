@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\digital_display.ttf" />
+    <None Remove="Fonts\iconfont.ttf" />
+    <None Remove="Images\Logo.png" />
+    <None Remove="Images\right.png" />
+    <None Remove="Images\Thumbs\air_compressor.png" />
+    <None Remove="Images\Thumbs\can.png" />
+    <None Remove="Images\Thumbs\can2.png" />
+    <None Remove="Images\Thumbs\dryer.png" />
+    <None Remove="Images\Thumbs\dryer2.png" />
+    <None Remove="Images\Thumbs\filter.png" />
+    <None Remove="Images\Thumbs\icon.png" />
+    <None Remove="Images\Thumbs\meter.png" />
+    <None Remove="Images\Thumbs\meter2.png" />
+    <None Remove="Images\Thumbs\meter3.png" />
+    <None Remove="Images\Thumbs\pipeline1.png" />
+    <None Remove="Images\Thumbs\pipeline2.png" />
+    <None Remove="Images\Thumbs\rt_joints.png" />
+    <None Remove="Images\Thumbs\tee_joints.png" />
+    <None Remove="Images\Thumbs\valve1.png" />
+    <None Remove="Images\Thumbs\valve2.png" />
+    <None Remove="Images\Thumbs\valve3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Styles\ComboBoxStyles.xaml" />
+    <Page Remove="Styles\DataGridStyle.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\digital_display.ttf" />
+    <Resource Include="Fonts\iconfont.ttf" />
+    <Resource Include="Images\Logo.png" />
+    <Resource Include="Images\right.png" />
+    <Resource Include="Images\Thumbs\air_compressor.png" />
+    <Resource Include="Images\Thumbs\can.png" />
+    <Resource Include="Images\Thumbs\can2.png" />
+    <Resource Include="Images\Thumbs\dryer.png" />
+    <Resource Include="Images\Thumbs\dryer2.png" />
+    <Resource Include="Images\Thumbs\filter.png" />
+    <Resource Include="Images\Thumbs\icon.png" />
+    <Resource Include="Images\Thumbs\meter.png" />
+    <Resource Include="Images\Thumbs\meter2.png" />
+    <Resource Include="Images\Thumbs\meter3.png" />
+    <Resource Include="Images\Thumbs\pipeline1.png" />
+    <Resource Include="Images\Thumbs\pipeline2.png" />
+    <Resource Include="Images\Thumbs\rt_joints.png" />
+    <Resource Include="Images\Thumbs\tee_joints.png" />
+    <Resource Include="Images\Thumbs\valve1.png" />
+    <Resource Include="Images\Thumbs\valve2.png" />
+    <Resource Include="Images\Thumbs\valve3.png" />
+    <Resource Include="Styles\ComboBoxStyles.xaml" />
+    <Resource Include="Styles\DataGridStyle.xaml" />
+  </ItemGroup>
+
+</Project>
